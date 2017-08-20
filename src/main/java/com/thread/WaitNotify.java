@@ -31,7 +31,9 @@ public class WaitNotify {
             try{
                 System.out.println("waiting for sum");
                 obj.wait();
-            }catch (InterruptedException e){}
+            }catch (InterruptedException e){
+                System.out.println("Interrupted");
+            }
         }
 
         System.out.println(obj.sum);
