@@ -11,8 +11,8 @@ public class ProducerConsumer {
 
         Vector queue = new Vector();
         int size = 5;
-        Thread producerThread = new Thread(new Producer(queue, size));
-        Thread consumerThread = new Thread(new Consumer(queue, size));
+        Thread producerThread = new Thread(new Producer(queue, size), "producer");
+        Thread consumerThread = new Thread(new Consumer(queue, size), "consumer");
         producerThread.start();
         consumerThread.start();
     }

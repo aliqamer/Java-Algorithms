@@ -12,6 +12,11 @@ class AdderThread extends Thread {
         synchronized (this){
             for (int i = 0; i < 1000000; i++) {
                 sum += i;
+                try {
+                    Thread.sleep(1l);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             notifyAll();
         }
