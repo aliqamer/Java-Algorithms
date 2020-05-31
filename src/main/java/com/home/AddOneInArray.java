@@ -13,7 +13,7 @@ public class AddOneInArray {
         AddOneInArray obj = new AddOneInArray();
         int[] a = new int[]{2,4,7,12,8,11,20};
         obj.addOne(a);
-        Arrays.stream(a).forEach(System.out::println);
+        Arrays.stream(a).forEach(System.out::print);
     }
 
     private void addOne(int[] a) {

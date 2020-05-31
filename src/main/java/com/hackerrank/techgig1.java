@@ -13,8 +13,7 @@ public class techgig1 {
 
     }
 
-    public static String Mathematician(int input1,String[] input2,String[] input3)
-    {
+    public static String Mathematician(int input1,String[] input2,String[] input3) {
         //Write code here
         if(input2.length != input3.length){
             return "invalid";
@@ -22,8 +21,6 @@ public class techgig1 {
 
             int[][] m1 = getMatrix(input1, input2);
             int[][] m2 = getMatrix(input1, input3);
-
-
 
             for(int i=0;i<input1;i++){
                 for(int j=0;j<input1;j++){
