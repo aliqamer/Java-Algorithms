@@ -1,0 +1,98 @@
+
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
+import java.util.function.Function;
+
+public class RetriableTaskTest {
+
+    public static void main(String[] args) {
+
+        int size = 10;
+        System.out.println("generating...");
+        List<RetriableTask> tasks = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            tasks.add(new RetriableTask(i));
+        }
+
+        System.out.println("issuing...");
+        List<CompletableFuture<Integer>> futures = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            futures.add(tasks.get(i).executeAsync());
+        }
+
+        System.out.println("Waiting...");
+        for (int i = 0; i < size; i++) {
+            try {
+                CompletableFuture<Integer> future = futures.get(i);
+                int result = future.get();
+                System.out.println(i + " result is " + result);
+            } catch (Exception ex) {
+                System.out.println(i + " I got exception!");
+            }
+        }
+        System.out.println("Done waiting...");
+    }
+}
+
+
+class RetriableTask
+{
+    protected static final int MAX_RETRIES = 10;
+    protected int retries = 0;
+    protected int n = 0;
+    protected CompletableFuture<Integer> future = new CompletableFuture<Integer>();
+
+    public RetriableTask(int number) {
+        n = number;
+    }
+
+    private static final ScheduledExecutorService scheduler =
+            Executors.newScheduledThreadPool(
+                    1,
+                    new ThreadFactoryBuilder()
+                            .setDaemon(true)
+                            .setNameFormat("failAfter-%d")
+                            .build());
+    public static <T> CompletableFuture<T> failAfter(Duration duration) {
+        final CompletableFuture<T> promise = new CompletableFuture<>();
+        scheduler.schedule(() -> {
+            final TimeoutException ex = new TimeoutException("Timeout after " + duration);
+            return promise.completeExceptionally(ex);
+        }, duration.toMillis(), TimeUnit.MILLISECONDS);
+        return promise;
+    }
+
+    public CompletableFuture<Integer> executeAsync() {
+        // Create a failure within variable timeout
+        Duration timeoutInMilliseconds = Duration.ofMillis(1*(int)Math.pow(2, retries));
+        CompletableFuture<Integer> timeoutFuture = failAfter(timeoutInMilliseconds);
+
+        // Create a dummy future and complete only if (n > 5 && retries > 5) so we can test for both completion and timeouts.
+        // In real application this should be a real future
+        final CompletableFuture<Integer> taskFuture = new CompletableFuture<>();
+        if (n > 5 && retries > 5)
+            taskFuture.complete(retries * n);
+
+        // Attach the failure future to the task future, and perform a check on completion
+        taskFuture.applyToEither(timeoutFuture, Function.identity())
+                .whenCompleteAsync((result, exception) -> {
+                    if (exception == null) {
+                        future.complete(result);
+                    } else {
+                        retries++;
+                        if (retries >= MAX_RETRIES) {
+                            future.completeExceptionally(exception);
+                        } else {
+                            executeAsync();
+                        }
+                    }
+                });
+
+        // Return the future
+        return future;
+    }
+}
