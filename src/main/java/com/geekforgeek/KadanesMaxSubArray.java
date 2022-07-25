@@ -6,7 +6,8 @@ Given an array arr of N integers. Find the contiguous sub-array(containing at le
  */
 public class KadanesMaxSubArray {
     public static void main(String[] args) {
-        int[] arr = {-2, 1, -2, 4, 3, 5, 1, -5, 4,-7, -8, 10, 5};
+//        int[] arr = {-2, 1, -2, 4, 3, 5, 1, -5, 4,-7, -8, 10, 5};
+        int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
 
         int global_max = arr[0];
         int max = arr[0];
