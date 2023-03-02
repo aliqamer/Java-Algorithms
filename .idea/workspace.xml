@@ -5,114 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8914020d-a7a2-4c8b-8c62-09a1d43cb921" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/Zalando3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/Zolando1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/Zolando2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ArrayIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/ArraySubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/FruitInBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/PlusOneArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/maxheap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekforgeek/KadanesMaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekforgeek/KadanesMaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekforgeek/KadanesMaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/conference/MainConference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/conference/MainConference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/Graph$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/Graph$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/GraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/GraphTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/Phonebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/Phonebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/PriorityQueueTest$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/PriorityQueueTest$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/PriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/PriorityQueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/nameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/nameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/ArraySubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/ArraySubset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/Combination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/FlipBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/FlipBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/LongestIncreasingSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/LongestPrefixSuffix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/LongestPrefixSuffix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MagicNumberGCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MagicNumberGCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MaxSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MaxSubSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MaxSubSequenceInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MaxSubSequenceInString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MessageDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MessageDecode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MinimumDiffSubSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MinimumDiffSubSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/MutiplyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/MutiplyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/PatternSearching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/PatternSearching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/PermutationOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/PermutationOfArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/SortingByFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/SortingByFrequency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/SubStringFormation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/SubStringFormation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekforgeek/WordBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekforgeek/WordBreak.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hackerrank/QueueUsing2Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hackerrank/QueueUsing2Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hackerrank/techgig1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hackerrank/techgig1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/AddOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/AddOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/AddOneInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/AddOneInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/AgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/ArrayAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/ArrayAddition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/BinaryGap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/CustomSort$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/CustomSort$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/CustomSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/CustomSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/FindLargestNumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/FindLargestNumber$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/FindLargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/FindLargestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/FindUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/FindUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/LonestParanthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/LonestParanthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/MaxSumPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/MaxSumPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/MinToMaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/MinToMaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/NameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/NameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/Rakuten.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/Rakuten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/Roman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/Roman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/RotateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/Simple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/Simple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/ThreeStackInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/ThreeStackInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/UniqueCharInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/UniqueCharInString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/UniqueString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/UniqueString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/home/myComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/myComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/DoubliLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/DoubliLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/DoubliLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/DoubliLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/DuplicateInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/DuplicateInLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/HelicoptorLanding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/HelicoptorLanding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/MinSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/MinSale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/SinglyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/SinglyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/StringPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/StringPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/TownFoodSleepType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/TownFoodSleepType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oystercard/OysterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oystercard/OysterMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oystercard/bean/UserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oystercard/bean/UserDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recursion/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recursion/Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/AdderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/AdderThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/MutexThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/MutexThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/MyThread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/OddGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/OddGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/ProducerConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/Semaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/Semaphore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/Signal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/Signal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/TestSignal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/TestSignal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/TestSignal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/TestSignal$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/TestSignal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/TestSignal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/TwoThreadExample$SimpleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/TwoThreadExample$SimpleThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/TwoThreadExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/TwoThreadExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/WaitNotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/WaitNotify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/WaitNotifyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/WaitNotifyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/consume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/consume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/odd2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/odd2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/odd3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/odd3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/produce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/produce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/q.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/q.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oystercard/OysterMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oystercard/OysterMainTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,17 +40,22 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8081c3aa-5a29-4aae-af37-712385015e07" />
+        <option name="url" value="git@github.com:aliqamer/Java-Algorithms.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ccpBTP8jidchEGogtCFVeyUJ8P" />
   <component name="ProjectViewState">
@@ -169,11 +69,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="F:/study/workspace/spring/springboot-webflux" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.3301887" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../1/C_Drive/opensource/camel-examples/examples/aws/pom.xml" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -192,7 +92,7 @@
       <recent name="C:\Users\Ali\IdeaProjects\Java-Algorithms\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zalando3">
+  <component name="RunManager" selected="Application.KadanesMaxSubArray">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -479,13 +379,41 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="ArraySubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ArraySubsets" />
+    <configuration name="CompletableFutureTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.CompletableFutureTest2" />
       <module name="Java-Algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.CompletableFutureTest3" />
+      <module name="Java-Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.CompletableFutureTest4" />
+      <module name="Java-Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -507,41 +435,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zalando3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.Zalando3" />
+    <configuration name="SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekforgeek.SubArray" />
       <module name="Java-Algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zolando1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.Zolando1" />
-      <module name="Java-Algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zolando2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.Zolando2" />
-      <module name="Java-Algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.*" />
+          <option name="PATTERN" value="com.geekforgeek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -587,19 +487,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CompletableFutureTest2" />
+      <item itemvalue="Application.CompletableFutureTest3" />
+      <item itemvalue="Application.CompletableFutureTest4" />
+      <item itemvalue="Application.SubArray" />
       <item itemvalue="Application.KadanesMaxSubArray" />
-      <item itemvalue="Application.ArraySubsets" />
-      <item itemvalue="Application.Zolando1" />
-      <item itemvalue="Application.Zolando2" />
-      <item itemvalue="Application.Zalando3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zalando3" />
-        <item itemvalue="Application.Zolando2" />
-        <item itemvalue="Application.Zolando1" />
         <item itemvalue="Application.KadanesMaxSubArray" />
-        <item itemvalue="Application.ArraySubsets" />
+        <item itemvalue="Application.SubArray" />
+        <item itemvalue="Application.CompletableFutureTest4" />
+        <item itemvalue="Application.CompletableFutureTest3" />
+        <item itemvalue="Application.CompletableFutureTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -761,48 +661,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekforgeek/KadanesMaxSubArray.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/palindrome.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/FruitInBasket.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ArraySubsets.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interview/Zolando1.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interview/Zolando2.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interview/Zalando3.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interview/Zalando3.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interview/Zalando3.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
