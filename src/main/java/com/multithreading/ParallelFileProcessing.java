@@ -1,4 +1,4 @@
-package com.general;
+package com.multithreading;
 
 import java.io.BufferedWriter;
 import java.io.File;
